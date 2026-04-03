@@ -1,0 +1,29 @@
+{page title: t('home.title'), description: t('site.tagline')}
+
+{block content}
+<section class="hero">
+    <h1>{t('home.intro')}</h1>
+</section>
+
+<section class="projects">
+    {var $projects = Colibri\Storage\Data::all('projects', sort: 'order')}
+    {foreach $projects as $project}
+        <a href="{url(path: 'projects/' . $project['_slug'])}" class="project-card">
+            {if $project['featured']}<span class="badge">{t('projects.featured')}</span>{/if}
+            {if $project['image'] ?? null}
+                <div class="project-thumb">
+                    {image 'images/' . $project['image'], resize: 400, alt: $project['title'][locale()]}
+                </div>
+            {/if}
+            <div class="project-info">
+                <h2>{$project['title'][locale()]}</h2>
+                <p>{$project['description'][locale()]}</p>
+                <div class="project-meta">
+                    <span class="category">{$project['category']}</span>
+                    <span class="year">{$project['year']}</span>
+                </div>
+            </div>
+        </a>
+    {/foreach}
+</section>
+{/block}

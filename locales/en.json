@@ -1,0 +1,40 @@
+{
+    "site": {
+        "name": "Jane Doe",
+        "tagline": "Designer & Developer"
+    },
+    "nav": {
+        "home": "Work",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Work",
+        "intro": "Selected projects"
+    },
+    "about": {
+        "title": "About",
+        "bio": "I'm a designer and developer based in Montreal. I craft digital experiences with attention to detail and a focus on performance."
+    },
+    "contact": {
+        "title": "Contact",
+        "intro": "Have a project in mind? Let's talk.",
+        "email_label": "Email",
+        "location": "Montreal, Canada",
+        "form_title": "Send a message",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send message",
+        "success": "Message sent! I'll get back to you soon.",
+        "error": "Something went wrong. Please try again."
+    },
+    "projects": {
+        "view": "View project",
+        "featured": "Featured",
+        "client": "Client",
+        "year": "Year",
+        "category": "Category",
+        "services": "Services"
+    }
+}

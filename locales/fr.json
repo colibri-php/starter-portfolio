@@ -1,0 +1,40 @@
+{
+    "site": {
+        "name": "Jane Doe",
+        "tagline": "Designer & Développeuse"
+    },
+    "nav": {
+        "home": "Travaux",
+        "about": "À propos",
+        "contact": "Contact"
+    },
+    "home": {
+        "title": "Travaux",
+        "intro": "Projets sélectionnés"
+    },
+    "about": {
+        "title": "À propos",
+        "bio": "Je suis designer et développeuse basée à Montréal. Je crée des expériences numériques avec le souci du détail et un focus sur la performance."
+    },
+    "contact": {
+        "title": "Contact",
+        "intro": "Un projet en tête? Discutons.",
+        "email_label": "Courriel",
+        "location": "Montréal, Canada",
+        "form_title": "Envoyer un message",
+        "name": "Nom",
+        "email": "Courriel",
+        "message": "Message",
+        "send": "Envoyer",
+        "success": "Message envoyé! Je vous reviens bientôt.",
+        "error": "Une erreur est survenue. Veuillez réessayer."
+    },
+    "projects": {
+        "view": "Voir le projet",
+        "featured": "En vedette",
+        "client": "Client",
+        "year": "Année",
+        "category": "Catégorie",
+        "services": "Services"
+    }
+}

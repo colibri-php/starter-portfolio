@@ -1,0 +1,54 @@
+{page title: t('contact.title')}
+
+{block content}
+<div class="card">
+    <div class="card-body">
+        <h1>{t('contact.title')}</h1>
+        <p>{t('contact.intro')}</p>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <strong>{t('contact.email_label')}</strong>
+                <a href="mailto:hello@janedoe.com">hello@janedoe.com</a>
+            </div>
+            <div class="contact-item">
+                <strong>Location</strong>
+                <span>{t('contact.location')}</span>
+            </div>
+            <div class="contact-item">
+                <strong>Social</strong>
+                <div class="contact-links">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Dribbble</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>{t('contact.form_title')}</h2>
+
+        <form method="POST" action="{url(path: 'contact')}" class="contact-form">
+            {csrf_field()|noescape}
+
+            <div class="field">
+                <label for="name">{t('contact.name')}</label>
+                <input type="text" id="name" name="name" value="{old('name')}" required>
+            </div>
+
+            <div class="field">
+                <label for="email">{t('contact.email')}</label>
+                <input type="email" id="email" name="email" value="{old('email')}" required>
+            </div>
+
+            <div class="field">
+                <label for="message">{t('contact.message')}</label>
+                <textarea id="message" name="message" rows="5" required>{old('message')}</textarea>
+            </div>
+
+            <button type="submit" class="btn">{t('contact.send')}</button>
+        </form>
+    </div>
+</div>
+{/block}

@@ -1,0 +1,22 @@
+{
+    "title": {
+        "en": "E-Commerce Redesign — Boutique Nordik",
+        "fr": "Refonte e-commerce — Boutique Nordik"
+    },
+    "description": {
+        "en": "Full redesign of an online store, focusing on mobile-first UX and conversion optimization.",
+        "fr": "Refonte complète d'une boutique en ligne, axée sur l'expérience mobile et l'optimisation des conversions."
+    },
+    "details": {
+        "en": "Boutique Nordik needed a complete overhaul of their Shopify storefront. We redesigned the product pages, simplified checkout, and introduced a lookbook section. Mobile conversion increased by 40% after launch.",
+        "fr": "Boutique Nordik avait besoin d'une refonte complète de sa boutique Shopify. Nous avons repensé les pages produits, simplifié le checkout et introduit une section lookbook. Les conversions mobiles ont augmenté de 40% après le lancement."
+    },
+    "category": "web",
+    "year": 2026,
+    "image": "ecommerce-redesign.png",
+    "client": "Boutique Nordik",
+    "services": ["UX Design", "Shopify", "Conversion Optimization"],
+    "link": "#",
+    "featured": true,
+    "order": 2
+}

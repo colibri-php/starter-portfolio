@@ -1,0 +1,22 @@
+{
+    "title": {
+        "en": "Mobile App — FitTrack",
+        "fr": "Application mobile — FitTrack"
+    },
+    "description": {
+        "en": "UI/UX design for a fitness tracking app with workout plans and progress charts.",
+        "fr": "Design UI/UX pour une application de suivi fitness avec plans d'entraînement et graphiques de progression."
+    },
+    "details": {
+        "en": "FitTrack is a fitness app that helps users track workouts, set goals, and visualize progress. I designed the full UI kit in Figma and collaborated with the development team on micro-interactions and animation specs.",
+        "fr": "FitTrack est une application de fitness qui aide les utilisateurs à suivre leurs entraînements, fixer des objectifs et visualiser leur progression. J'ai conçu le kit UI complet dans Figma et collaboré avec l'équipe de développement sur les micro-interactions."
+    },
+    "category": "mobile",
+    "year": 2026,
+    "image": "mobile-app.png",
+    "client": "FitTrack Inc.",
+    "services": ["UI Design", "Figma", "Prototyping"],
+    "link": "#",
+    "featured": false,
+    "order": 3
+}

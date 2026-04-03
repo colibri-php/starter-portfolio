@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{locale()}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{site_title($page->title)}</title>
+    {meta}
+    {styles}
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{url(path: '/')}" class="logo">{t('site.name')}</a>
+            <div class="nav-links">
+                <a href="{url(path: '/')}">{t('nav.home')}</a>
+                <a href="{url(path: 'about')}">{t('nav.about')}</a>
+                <a href="{url(path: 'contact')}">{t('nav.contact')}</a>
+                <span class="lang-switch">
+                    {foreach locales() as $loc => $base}
+                        <a href="{url(locale: $loc)}"
+                           class="{if $loc === locale()}active{/if}">{$loc|upper}</a>{sep} / {/sep}
+                    {/foreach}
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {alerts}
+        {block content}{/block}
+    </main>
+
+    <footer>
+        <p>&copy; {date('Y')} {t('site.name')} &mdash; {t('site.tagline')}</p>
+    </footer>
+    {scripts}
+</body>
+</html>

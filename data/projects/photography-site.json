@@ -1,0 +1,22 @@
+{
+    "title": {
+        "en": "Photography Portfolio — Sarah Chen",
+        "fr": "Portfolio photo — Sarah Chen"
+    },
+    "description": {
+        "en": "Minimalist portfolio site for a landscape photographer, with full-screen galleries.",
+        "fr": "Site portfolio minimaliste pour une photographe de paysages, avec galeries plein écran."
+    },
+    "details": {
+        "en": "Sarah needed a portfolio that let her images speak for themselves. We built a minimal site with full-bleed galleries, lazy loading, and a subtle grid layout. The site loads in under 1 second on mobile.",
+        "fr": "Sarah avait besoin d'un portfolio qui laisse ses images parler d'elles-mêmes. Nous avons construit un site minimal avec des galeries pleine largeur, du chargement différé et une grille subtile. Le site charge en moins d'une seconde sur mobile."
+    },
+    "category": "web",
+    "year": 2025,
+    "image": "photography-site.png",
+    "client": "Sarah Chen Photography",
+    "services": ["Web Design", "Performance", "Photography"],
+    "link": "#",
+    "featured": true,
+    "order": 4
+}

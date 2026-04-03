@@ -1,0 +1,22 @@
+{
+    "title": {
+        "en": "Brand Identity — Café Montréal",
+        "fr": "Identité de marque — Café Montréal"
+    },
+    "description": {
+        "en": "Complete brand identity for a local café, including logo, packaging, and signage.",
+        "fr": "Identité visuelle complète pour un café local, incluant logo, emballage et signalétique."
+    },
+    "details": {
+        "en": "This project involved creating a cohesive visual identity from scratch — from the wordmark and color palette to menu design, takeaway cups, and exterior signage. The goal was to evoke warmth and craftsmanship while standing out on a busy street.",
+        "fr": "Ce projet consistait à créer une identité visuelle cohérente à partir de zéro — du logotype à la palette de couleurs, en passant par le design des menus, les tasses à emporter et l'enseigne extérieure. L'objectif : évoquer chaleur et savoir-faire tout en se démarquant dans une rue achalandée."
+    },
+    "category": "branding",
+    "year": 2025,
+    "image": "brand-identity.png",
+    "client": "Café Montréal",
+    "services": ["Logo Design", "Packaging", "Signage"],
+    "link": "#",
+    "featured": true,
+    "order": 1
+}

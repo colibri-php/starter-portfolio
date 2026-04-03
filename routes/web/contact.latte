@@ -30,7 +30,7 @@
         <h2>{t('contact.form_title')}</h2>
 
         <form method="POST" action="{url(path: 'contact')}" class="contact-form">
-            {csrf_field()|noescape}
+            {csrf}
 
             <div class="field">
                 <label for="name">{t('contact.name')}</label>
